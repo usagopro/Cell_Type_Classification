@@ -81,8 +81,7 @@ The model achieves the following performance on the test set:
 
 ### Confusion Matrix
 
-![Grad-CAM Visualization](images/confusion_matrix.png)
-
+<img src="images/confusion_matrix.png" alt="confusion_matrix" width="400"/>
 
 ### Grad-CAM Visualization
 Below is a sample Grad-CAM visualization showing the original image, raw heatmap, and overlaid heatmap for a test image. The heatmaps highlight regions the model focuses on for predictions, aiding interpretability.
