@@ -81,16 +81,13 @@ The model achieves the following performance on the test set:
 
 ### Confusion Matrix
 
-[[367   6   0  63]
-[  0 433   1   0]
-[  0   0 328 106]
-[ 37   0   0 399]]
+![Grad-CAM Visualization](images/confusion_matrix.png)
 
 
 ### Grad-CAM Visualization
-Below is a sample Grad-CAM visualization showing the original images, raw heatmaps, and overlaid heatmaps for five test images. The heatmaps highlight regions the model focuses on for predictions, aiding interpretability.
+Below is a sample Grad-CAM visualization showing the original image, raw heatmap, and overlaid heatmap for a test image. The heatmaps highlight regions the model focuses on for predictions, aiding interpretability.
 
-<image-card alt="Grad-CAM Visualization" src="images/gradcam_visualization.png" ></image-card>
+![Grad-CAM Visualization](images/gradcam_visualization.png)
 
 - **Insights**: The model performs best on Lymphocyte (99% F1-score) but struggles with Monocyte and Neutrophil due to visual similarities, as seen in the confusion matrix (e.g., 106 Monocytes misclassified as Neutrophils).
 - **Grad-CAM**: The visualization confirms the model focuses on relevant cell features, enhancing trust in its predictions.
