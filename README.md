@@ -86,7 +86,7 @@ The model achieves the following performance on the test set:
 ### Grad-CAM Visualization
 Below is a sample Grad-CAM visualization showing the original image, raw heatmap, and overlaid heatmap for a test image. The heatmaps highlight regions the model focuses on for predictions, aiding interpretability.
 
-![Grad-CAM Visualization](images/gradcam_visualization.png)
+<img src="images/download.png" alt="gradcam_visualization"/>
 
 - **Insights**: The model performs best on Lymphocyte (99% F1-score) but struggles with Monocyte and Neutrophil due to visual similarities, as seen in the confusion matrix (e.g., 106 Monocytes misclassified as Neutrophils).
 - **Grad-CAM**: The visualization confirms the model focuses on relevant cell features, enhancing trust in its predictions.
