@@ -105,9 +105,6 @@ Below is a sample Grad-CAM visualization showing the original image, raw heatmap
   - `matplotlib`
   - `numpy`
   - `tensorflow` (for `to_categorical`, though primarily PyTorch-based)
-- Install dependencies: `pip install -r requirements.txt`
-
-Create a `requirements.txt` file with the above libraries if needed.
 
 ## How to Run
 
